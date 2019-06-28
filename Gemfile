@@ -11,7 +11,6 @@ group :development, :test do
   gem "sqlite3", "1.3.13"
 end
 
-gem "rubocop", "~> 0.54.0", require: false
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem "rails", "~> 5.2.3"
 
