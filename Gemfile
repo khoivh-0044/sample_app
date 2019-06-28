@@ -9,6 +9,7 @@ end
 group :development, :test do
   gem "byebug",  "9.0.6", platform: :mri
   gem "sqlite3", "1.3.13"
+
   gem "rubocop", "~> 0.54.0", require: false
 end
 
@@ -72,4 +73,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
